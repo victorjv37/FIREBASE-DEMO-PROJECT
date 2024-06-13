@@ -1,0 +1,42 @@
+// * {
+//   border: 1px solid red;
+// }
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.appContainer {
+  height: 96vh;
+  justify-content: space-between;
+}
+
+#signUpInButton {
+  padding: 5px;
+  margin: 5px;
+}
+
+.appFooter {
+  position: fixed;
+  bottom: 100%;
+}
+
+.appTitle {
+  position: fixed;
+}
+
+.p-2 > input , .p-2 > button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.p-2 > input {
+  margin: 4px;;
+}
+
+p {
+  margin: 0px;
+}
